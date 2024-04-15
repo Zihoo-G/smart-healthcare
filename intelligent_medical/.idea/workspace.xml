@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="97e1dd7d-35a5-4c10-a79d-9a881f572c9d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/micro_service/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/micro_service/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/micro_service/service/DiagnosisService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/micro_service/service/DiagnosisService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/micro_service/service/EsUtilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/micro_service/service/EsUtilService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/micro_service/service/NeoUtilService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/micro_service/service/NeoUtilService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/micro_service/service/RelatedDiseaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/micro_service/service/RelatedDiseaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/micro_service/service/RelatedQueryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/micro_service/service/RelatedQueryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/micro_service/service/SearchService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/micro_service/service/SearchService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/es/EsSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/es/EsSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/init/neo/NeoPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/init/neo/NeoPool.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/init/neo/NeoPoolUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/init/neo/NeoPoolUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/neo/NeoCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/neo/NeoCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/neo/NeoDelete.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/neo/NeoDelete.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/neo/NeoSearch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/neo/NeoSearch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/neo/NeoUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/neo/NeoUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/process/proc/EsProcessData.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/process/proc/EsProcessData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/qa/AnswerSearcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/qa/AnswerSearcher.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/qa/LoadDict.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/qa/LoadDict.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sy/qa/MedicalQA.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sy/qa/MedicalQA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/es_scheme/medical_mapping.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/es_scheme/medical_mapping.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/properties.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/properties.properties" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Maven/apache-maven-3.6.3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2C9V8nRK7vBbzort7rgS6nKSMPU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/桌面/code/medical_treatment/intelligent_medical&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2678161&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\project\idea_workspace\intelligent_medical" />
+      <recent name="E:\idea_project\intelligent_medical\src\main\resources\kg_input_data" />
+      <recent name="E:\idea_project\intelligent_medical\src\main\resources" />
+      <recent name="E:\idea_project\intelligent_medical\src\main\java\sy" />
+      <recent name="E:\idea_project\intelligent_medical\src\main\resources\medical" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="utils" />
+      <recent name="sy.es_neo" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\idea_project\intelligent_medical\src\main\resources\kg_input_data" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.IntelligentServer">
+    <configuration name="EsProcessData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sy.process.proc.EsProcessData" />
+      <module name="intelligent_medical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sy.process.proc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EsUtilService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="micro_service.service.EsUtilService" />
+      <module name="intelligent_medical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="micro_service.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IntelligentServer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="micro_service.IntelligentServer" />
+      <module name="intelligent_medical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="micro_service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NeoUtilService" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="micro_service.service.NeoUtilService" />
+      <module name="intelligent_medical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="micro_service.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="sy.neo.type.Test" />
+      <module name="intelligent_medical" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sy.neo.type.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.IntelligentServer" />
+        <item itemvalue="Application.EsUtilService" />
+        <item itemvalue="Application.EsProcessData" />
+        <item itemvalue="Application.NeoUtilService" />
+        <item itemvalue="Application.Test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="97e1dd7d-35a5-4c10-a79d-9a881f572c9d" name="Default Changelist" comment="" />
+      <created>1658214630308</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658214630308</updated>
+      <workItem from="1658214633468" duration="5611000" />
+      <workItem from="1658283349948" duration="19637000" />
+      <workItem from="1658363790059" duration="4141000" />
+      <workItem from="1658367992648" duration="21344000" />
+      <workItem from="1658409651027" duration="3776000" />
+      <workItem from="1658551992330" duration="674000" />
+      <workItem from="1658642254137" duration="10274000" />
+      <workItem from="1712481472882" duration="2036000" />
+      <workItem from="1712488822693" duration="2118000" />
+      <workItem from="1712495323464" duration="2680000" />
+      <workItem from="1712499135244" duration="533000" />
+      <workItem from="1712499697894" duration="650000" />
+      <workItem from="1712559877619" duration="760000" />
+      <workItem from="1712563338186" duration="5199000" />
+      <workItem from="1712573446671" duration="1693000" />
+      <workItem from="1712575952711" duration="11324000" />
+      <workItem from="1712649498046" duration="234000" />
+      <workItem from="1712650498568" duration="10563000" />
+      <workItem from="1712711684906" duration="3480000" />
+      <workItem from="1712801808797" duration="6051000" />
+      <workItem from="1713011910450" duration="904000" />
+      <workItem from="1713077889398" duration="942000" />
+      <workItem from="1713099880273" duration="1166000" />
+      <workItem from="1713158084653" duration="696000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.csv" />
+  </component>
+</project>

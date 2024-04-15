@@ -1,0 +1,18 @@
+{
+  "files": [],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    },
+    {
+      "path": "./tsconfig.app.json"
+    }
+  ],
+  "compilerOptions": {
+    "types": ["bootstrap"],
+    // 不产出编译文件
+    "noEmit": true,
+    // 允许导入扩展名 .ts 的文件
+    "allowImportingTsExtensions": true
+  }
+}

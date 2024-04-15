@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gazikel.hospital.mapper.DoctorMapper">
+    <select id="getScheduleDoctors" resultType="com.gazikel.model.pojo.Doctor">
+        SELECT * FROM t_doctor WHERE `id` IN (SELECT `did` FROM t_schedule WHERE `date` = #{day}) AND `dept_id` = #{dept_id};
+    </select>
+
+    <select id="getDoctorPassword" resultType="com.gazikel.model.vo.DoctorLoginVo">
+        select `id`, `uid`, `password`, `name` FROM t_doctor where `uid` = #{uid}
+    </select>
+
+    <select id="getDoctorLoginInfo" resultType="com.gazikel.model.vo.DoctorLoginVo">
+        select `id`, `uid`, `password`, `name`, `url` as `avatar` FROM t_doctor where `id` = #{id}
+    </select>
+
+    <select id="getPatientInfo" resultType="com.gazikel.model.vo.PatientInfoVo">
+        SELECT t_user.`id` as `uid`, `number`, `username`, `name`, `identify`, `date`, GROUP_CONCAT(latest_checks.`description`) AS `description`  FROM t_appointment
+        LEFT JOIN  t_user
+                ON t_user.`id` = t_appointment.`uid`
+        LEFT JOIN (
+            SELECT *
+                FROM t_check
+                WHERE uid IN (SELECT t_appointment.`uid` from  t_appointment WHERE `did` = #{id}
+        AND `date`=#{date}
+        AND t_appointment.is_deleted = 0 )
+                ORDER BY `update_time` DESC
+                LIMIT 4
+        ) as latest_checks ON latest_checks.`uid`  = t_appointment.`uid`
+        WHERE `did` = #{id}
+                  AND `date`=#{date}
+                  AND t_appointment.is_deleted = 0
+                  <if test="name != null">
+                    AND t_user.`name` LIKE CONCAT('%', #{name}, '%');
+                  </if>
+    </select>
+
+<!--    <select id="getPatientInfo" resultType="com.gazikel.model.vo.PatientInfoVo">-->
+<!--        SELECT t_user.`id` as `uid`, `number`, `username`, `name`, `identify`, `date`, GROUP_CONCAT(`description`) AS `description`  FROM t_appointment-->
+<!--        LEFT JOIN  t_user-->
+<!--        ON t_user.`id` = t_appointment.`uid`-->
+<!--        LEFT JOIN t_check-->
+<!--        ON t_check.`uid` = t_appointment.`uid`-->
+<!--        WHERE `did` = #{id}-->
+<!--        AND `date`=#{date}-->
+<!--        AND t_appointment.is_deleted = 0-->
+<!--        <if test="name != null">-->
+<!--            AND t_user.`name` LIKE CONCAT('%', #{name}, '%');-->
+<!--        </if>-->
+<!--    </select>-->
+</mapper>

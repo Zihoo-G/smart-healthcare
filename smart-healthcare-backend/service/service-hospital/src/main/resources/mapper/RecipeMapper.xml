@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.gazikel.hospital.mapper.RecipeMapper">
+    <select id="getRecipeList" resultType="com.gazikel.model.pojo.Recipe">
+
+        SELECT
+            t_recipe.`id`, t_recipe.`create_time`, t_recipe.`update_time`, t_recipe.`uid`, t_recipe.`did`, t_recipe.`is_outbound`,
+            t_user.`username` AS `username`, t_user.`name` AS `uname`, t_drug.`name` AS `dname`, t_drug.`price`, t_recipe.`number` FROM t_recipe
+            LEFT JOIN t_user ON t_user.id = t_recipe.uid
+            LEFT JOIN t_drug ON t_drug.id = t_recipe.did
+        WHERE t_recipe.is_deleted = 0
+        <if test="id != null">
+            AND t_user.id = #{id}
+        </if>
+        <if test="name != null">
+            AND t_user.`name` LIKE CONCAT('%', #{name}, '%')
+        </if>
+        <if test="date != null">
+            AND t_recipe.`create_time` = #{date}
+        </if>
+        LIMIT #{pageNum}, #{limitNum};
+    </select>
+</mapper>
